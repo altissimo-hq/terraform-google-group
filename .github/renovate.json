@@ -1,4 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>GoogleCloudPlatform/cloud-foundation-toolkit//infra/terraform/test-org/github/resources/renovate"]
+  "extends": ["config:recommended"],
+  "terraform": {
+    "enabled": true
+  }
 }
