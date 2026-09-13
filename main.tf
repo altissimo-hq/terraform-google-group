@@ -48,7 +48,7 @@ resource "google_cloud_identity_group" "group" {
   labels = { for t in var.types : local.label_keys[t] => "" }
 
   lifecycle {
-    ignore_changes = [ initial_group_config ]
+    ignore_changes = [initial_group_config]
   }
 }
 
