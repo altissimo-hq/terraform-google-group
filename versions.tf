@@ -20,20 +20,20 @@ terraform {
 
     google = {
       source  = "hashicorp/google"
-      version = ">= 3.67, < 9"
+      version = ">= 6.0, < 9"
     }
     google-beta = {
       source  = "hashicorp/google-beta"
-      version = ">= 3.67, < 9"
+      version = ">= 6.0, < 9"
     }
   }
 
   provider_meta "google" {
-    module_name = "blueprints/terraform/terraform-google-group/v1.0.2"
+    module_name = "blueprints/terraform/terraform-google-group/v1.0.3"
   }
 
   provider_meta "google-beta" {
-    module_name = "blueprints/terraform/terraform-google-group/v1.0.2"
+    module_name = "blueprints/terraform/terraform-google-group/v1.0.3"
   }
 
 }
