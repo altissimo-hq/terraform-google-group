@@ -1,0 +1,11 @@
+formatter: "markdown"
+
+output:
+  file: README.md
+
+settings:
+  lockfile: false
+
+sections:
+  hide:
+    - header
